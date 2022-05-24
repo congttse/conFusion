@@ -14,27 +14,18 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-        <div class="container">
-            <div class="container">
-                <a href="#" class="navbar-brand">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav mr-auto"></ul>
-                </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">Navbar</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-home fa-lg"></span>Home</a></li>
+                    <li class="nav-item"><a href="./aboutus.html" class="nav-link"><span class="fa fa-info fa-lg"></span>About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span>Menu</a></li>
+                    <li class="nav-item"><a href="./contactus.html" class="nav-link"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+                </ul>
             </div>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-home fa-lg"></span>Home</a>
-                </li>
-                <li class="nav-item "><a href="./aboutus.html" class="nav-link"><span
-                            class="fa fa-info fa-lg"></span>About Us</a></li>
-                <li class="nav-item "><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span>Menu</a></li>
-                <li class="nav-item "><a href="./contactus.html" class="nav-link"><span
-                            class="fa fa-address-card fa-lg"></span>Contact</a></li>
-            </ul>
-        </div>
-
     </nav>
 
     <header class="jumbotron">
@@ -89,7 +80,14 @@
             </div>
         </div>
     </div>
-
+    <div class="alert alert-success" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <span class="badge badge-danger">HOT</span>
+    <span class="badge badge-pill badge-primary">$4.99</span>
     <footer class="footer">
         <div class="container">
             <div class="row">
