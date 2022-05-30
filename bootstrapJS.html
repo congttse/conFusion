@@ -13,12 +13,11 @@
 
     <title>Document</title>
     <style>
-        .carousel-item img{
+        .carousel-item img {
             width: 70%;
             height: auto;
             margin: auto;
         }
-        
     </style>
 </head>
 
@@ -72,9 +71,9 @@
         </div>
     </nav>
     <div class="tab-content">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel">...</div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel">...</div>
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel">Home</div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel">Profile</div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel">Contact</div>
     </div>
 
     <p>
@@ -149,9 +148,9 @@
     <!--Tooltip-->
     <h3>Tooltip example</h3>
     <a href="#" data-toggle="tooltip" title="welcome to tooltip" data-placement="bottom">Hover the link</a>
-    
+
     <script>
-        $(function(){
+        $(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
@@ -159,14 +158,15 @@
     <!--Popover-->
     <div class="container">
         <h3>Popover Example</h3>
-        <p>Popover are not CSS-only plugins, and must therefore be initialized with jQuery: select the specified element and call the popover() method.</p>
+        <p>Popover are not CSS-only plugins, and must therefore be initialized with jQuery: select the specified element
+            and call the popover() method.</p>
         <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">
             Toggle popover
         </a>
     </div>
 
     <script>
-        $(function(){
+        $(function () {
             $('[data-toggle="popover"]').popover();
         });
     </script>
